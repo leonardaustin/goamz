@@ -8,7 +8,6 @@ var USGovWest = Region{
 	true,
 	true,
 	"",
-	"",
 	"https://sns.us-gov-west-1.amazonaws.com",
 	"https://sqs.us-gov-west-1.amazonaws.com",
 	"https://iam.us-gov.amazonaws.com",
@@ -17,8 +16,10 @@ var USGovWest = Region{
 	ServiceInfo{"https://monitoring.us-gov-west-1.amazonaws.com", V2Signature},
 	"https://autoscaling.us-gov-west-1.amazonaws.com",
 	ServiceInfo{"https://rds.us-gov-west-1.amazonaws.com", V2Signature},
+	"",
 	"https://sts.amazonaws.com",
 	"https://cloudformation.us-gov-west-1.amazonaws.com",
+	"",
 }
 
 var USEast = Region{
@@ -29,7 +30,6 @@ var USEast = Region{
 	false,
 	false,
 	"https://sdb.amazonaws.com",
-	"https://email.us-east-1.amazonaws.com",
 	"https://sns.us-east-1.amazonaws.com",
 	"https://sqs.us-east-1.amazonaws.com",
 	"https://iam.amazonaws.com",
@@ -38,8 +38,10 @@ var USEast = Region{
 	ServiceInfo{"https://monitoring.us-east-1.amazonaws.com", V2Signature},
 	"https://autoscaling.us-east-1.amazonaws.com",
 	ServiceInfo{"https://rds.us-east-1.amazonaws.com", V2Signature},
+	"https://kinesis.us-east-1.amazonaws.com",
 	"https://sts.amazonaws.com",
 	"https://cloudformation.us-east-1.amazonaws.com",
+	"https://elasticache.us-east-1.amazonaws.com",
 }
 
 var USWest = Region{
@@ -50,7 +52,6 @@ var USWest = Region{
 	true,
 	true,
 	"https://sdb.us-west-1.amazonaws.com",
-	"",
 	"https://sns.us-west-1.amazonaws.com",
 	"https://sqs.us-west-1.amazonaws.com",
 	"https://iam.amazonaws.com",
@@ -59,8 +60,10 @@ var USWest = Region{
 	ServiceInfo{"https://monitoring.us-west-1.amazonaws.com", V2Signature},
 	"https://autoscaling.us-west-1.amazonaws.com",
 	ServiceInfo{"https://rds.us-west-1.amazonaws.com", V2Signature},
+	"",
 	"https://sts.amazonaws.com",
 	"https://cloudformation.us-west-1.amazonaws.com",
+	"https://elasticache.us-west-1.amazonaws.com",
 }
 
 var USWest2 = Region{
@@ -71,7 +74,6 @@ var USWest2 = Region{
 	true,
 	true,
 	"https://sdb.us-west-2.amazonaws.com",
-	"https://email.us-west-2.amazonaws.com",
 	"https://sns.us-west-2.amazonaws.com",
 	"https://sqs.us-west-2.amazonaws.com",
 	"https://iam.amazonaws.com",
@@ -80,8 +82,10 @@ var USWest2 = Region{
 	ServiceInfo{"https://monitoring.us-west-2.amazonaws.com", V2Signature},
 	"https://autoscaling.us-west-2.amazonaws.com",
 	ServiceInfo{"https://rds.us-west-2.amazonaws.com", V2Signature},
+	"https://kinesis.us-west-2.amazonaws.com",
 	"https://sts.amazonaws.com",
 	"https://cloudformation.us-west-2.amazonaws.com",
+	"https://elasticache.us-west-2.amazonaws.com",
 }
 
 var EUWest = Region{
@@ -92,7 +96,6 @@ var EUWest = Region{
 	true,
 	true,
 	"https://sdb.eu-west-1.amazonaws.com",
-	"https://email.eu-west-1.amazonaws.com",
 	"https://sns.eu-west-1.amazonaws.com",
 	"https://sqs.eu-west-1.amazonaws.com",
 	"https://iam.amazonaws.com",
@@ -101,8 +104,10 @@ var EUWest = Region{
 	ServiceInfo{"https://monitoring.eu-west-1.amazonaws.com", V2Signature},
 	"https://autoscaling.eu-west-1.amazonaws.com",
 	ServiceInfo{"https://rds.eu-west-1.amazonaws.com", V2Signature},
+	"https://kinesis.eu-west-1.amazonaws.com",
 	"https://sts.amazonaws.com",
 	"https://cloudformation.eu-west-1.amazonaws.com",
+	"https://elasticache.eu-west-1.amazonaws.com",
 }
 
 var EUCentral = Region{
@@ -113,7 +118,6 @@ var EUCentral = Region{
 	true,
 	true,
 	"https://sdb.eu-central-1.amazonaws.com",
-	"https://email.eu-central-1.amazonaws.com",
 	"https://sns.eu-central-1.amazonaws.com",
 	"https://sqs.eu-central-1.amazonaws.com",
 	"https://iam.amazonaws.com",
@@ -122,8 +126,10 @@ var EUCentral = Region{
 	ServiceInfo{"https://monitoring.eu-central-1.amazonaws.com", V2Signature},
 	"https://autoscaling.eu-central-1.amazonaws.com",
 	ServiceInfo{"https://rds.eu-central-1.amazonaws.com", V2Signature},
+	"https://kinesis.eu-central-1.amazonaws.com",
 	"https://sts.amazonaws.com",
 	"https://cloudformation.eu-central-1.amazonaws.com",
+	"",
 }
 
 var APSoutheast = Region{
@@ -134,7 +140,6 @@ var APSoutheast = Region{
 	true,
 	true,
 	"https://sdb.ap-southeast-1.amazonaws.com",
-	"",
 	"https://sns.ap-southeast-1.amazonaws.com",
 	"https://sqs.ap-southeast-1.amazonaws.com",
 	"https://iam.amazonaws.com",
@@ -143,8 +148,10 @@ var APSoutheast = Region{
 	ServiceInfo{"https://monitoring.ap-southeast-1.amazonaws.com", V2Signature},
 	"https://autoscaling.ap-southeast-1.amazonaws.com",
 	ServiceInfo{"https://rds.ap-southeast-1.amazonaws.com", V2Signature},
+	"https://kinesis.ap-southeast-1.amazonaws.com",
 	"https://sts.amazonaws.com",
 	"https://cloudformation.ap-southeast-1.amazonaws.com",
+	"https://elasticache.ap-southeast-1.amazonaws.com",
 }
 
 var APSoutheast2 = Region{
@@ -155,7 +162,6 @@ var APSoutheast2 = Region{
 	true,
 	true,
 	"https://sdb.ap-southeast-2.amazonaws.com",
-	"",
 	"https://sns.ap-southeast-2.amazonaws.com",
 	"https://sqs.ap-southeast-2.amazonaws.com",
 	"https://iam.amazonaws.com",
@@ -164,8 +170,10 @@ var APSoutheast2 = Region{
 	ServiceInfo{"https://monitoring.ap-southeast-2.amazonaws.com", V2Signature},
 	"https://autoscaling.ap-southeast-2.amazonaws.com",
 	ServiceInfo{"https://rds.ap-southeast-2.amazonaws.com", V2Signature},
+	"https://kinesis.ap-southeast-2.amazonaws.com",
 	"https://sts.amazonaws.com",
 	"https://cloudformation.ap-southeast-2.amazonaws.com",
+	"https://elasticache.ap-southeast-2.amazonaws.com",
 }
 
 var APNortheast = Region{
@@ -176,7 +184,6 @@ var APNortheast = Region{
 	true,
 	true,
 	"https://sdb.ap-northeast-1.amazonaws.com",
-	"",
 	"https://sns.ap-northeast-1.amazonaws.com",
 	"https://sqs.ap-northeast-1.amazonaws.com",
 	"https://iam.amazonaws.com",
@@ -185,8 +192,10 @@ var APNortheast = Region{
 	ServiceInfo{"https://monitoring.ap-northeast-1.amazonaws.com", V2Signature},
 	"https://autoscaling.ap-northeast-1.amazonaws.com",
 	ServiceInfo{"https://rds.ap-northeast-1.amazonaws.com", V2Signature},
+	"https://kinesis.ap-northeast-1.amazonaws.com",
 	"https://sts.amazonaws.com",
 	"https://cloudformation.ap-northeast-1.amazonaws.com",
+	"https://elasticache.ap-northeast-1.amazonaws.com",
 }
 
 var SAEast = Region{
@@ -197,7 +206,6 @@ var SAEast = Region{
 	true,
 	true,
 	"https://sdb.sa-east-1.amazonaws.com",
-	"",
 	"https://sns.sa-east-1.amazonaws.com",
 	"https://sqs.sa-east-1.amazonaws.com",
 	"https://iam.amazonaws.com",
@@ -206,6 +214,8 @@ var SAEast = Region{
 	ServiceInfo{"https://monitoring.sa-east-1.amazonaws.com", V2Signature},
 	"https://autoscaling.sa-east-1.amazonaws.com",
 	ServiceInfo{"https://rds.sa-east-1.amazonaws.com", V2Signature},
+	"",
 	"https://sts.amazonaws.com",
 	"https://cloudformation.sa-east-1.amazonaws.com",
+	"https://elasticache.sa-east-1.amazonaws.com",
 }
