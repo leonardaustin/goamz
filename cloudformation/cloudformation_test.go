@@ -6,9 +6,9 @@ import (
 
 	"github.com/motain/gocheck"
 
-	"github.com/goamz/goamz/aws"
-	cf "github.com/goamz/goamz/cloudformation"
-	"github.com/goamz/goamz/testutil"
+	"github.com/leonardaustin/goamz/aws"
+	cf "github.com/leonardaustin/goamz/cloudformation"
+	"github.com/leonardaustin/goamz/testutil"
 )
 
 func Test(t *testing.T) {

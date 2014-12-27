@@ -3,9 +3,9 @@ package ses_test
 
 import (
 	"bytes"
-	"github.com/goamz/goamz/aws"
-	"github.com/goamz/goamz/exp/ses"
-	"github.com/goamz/goamz/testutil"
+	"github.com/leonardaustin/goamz/aws"
+	"github.com/leonardaustin/goamz/exp/ses"
+	"github.com/leonardaustin/goamz/testutil"
 	"github.com/motain/gocheck"
 	"net/url"
 )

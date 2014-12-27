@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/goamz/goamz/aws"
+	"github.com/leonardaustin/goamz/aws"
 	"github.com/motain/gocheck"
 )
 
